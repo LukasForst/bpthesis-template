@@ -1,0 +1,1 @@
+This is unofficial Latex template for bachelor thesis on Faculty of Eletrical Engeneering, Czech Technical University.

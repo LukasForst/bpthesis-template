@@ -1,0 +1,74 @@
+\documentclass[thesis=B,english]{BPthesis}[2012/06/26]
+
+\usepackage[utf8]{inputenc} 
+
+\usepackage{graphicx} 
+\usepackage{dirtree} 
+\usepackage{float}
+\usepackage{fancyvrb} 
+\usepackage{float} 
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{microtype}  
+\usepackage{listings} 
+\usepackage{indentfirst}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\department{Department of Computer Science}
+\title{Title}
+\authorGN{First Name}
+\authorFN{Last Name} 
+\authorWithDegrees{Full Name}
+\author{Author}
+\supervisor{Ing. Supervisor}
+\acknowledgements{acknowledgements}
+ 
+\abstractCS{
+	abstract cs
+}
+\abstractEN{
+	abstract en
+}
+
+\placeForDeclarationOfAuthenticity{Prague}
+\declarationOfAuthenticityOption{1} % 1-6
+\keywordsCS{key, words, cs}
+\keywordsEN{key, words, en}   
+% \website{http://site.example/thesis}
+
+\begin{document}
+
+\begin{introduction}
+	Introduction  
+\end{introduction}
+
+\chapter{Chapter}
+chapter \cite{svgspec}
+
+\section{Section} 
+section
+
+\chapter{Another Chapter}
+chapter \cite{svgspec}
+
+\section{Section} 
+section
+
+\begin{conclusion}
+conclusion
+\end{conclusion}
+
+\bibliographystyle{amsalpha}
+\bibliography{bibliographyfile}
+
+\appendix
+
+\chapter{List of Abbreviations}
+
+\begin{description}
+	\item[API] Application programming interface
+\end{description}
+
+\end{document}
